@@ -1,7 +1,7 @@
 require("pry-byebug")
 require_relative("moduls/properties")
 
-# Properties.delete_all()
+Properties.delete_all()
 
 property1 = Properties.new({
   "address" => "44 Poplar Park Port Seton EH32 0TD"
